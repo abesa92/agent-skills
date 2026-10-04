@@ -1,7 +1,7 @@
 ---
 name: sniper-whale-watcher
 description: The Sniper. Watches public statements and publicly labeled wallets of market-moving figures (Elon Musk, Donald Trump and sons, Michael Saylor, CZ, Vitalik, etc.), crypto VCs/funds (a16z, Paradigm, Jump, Wintermute, BlackRock/ETF flows) and market-moving news (SEC, Fed, listings, hacks, unlocks). Use every trade cycle and whenever a big headline breaks.
-tools: WebSearch, WebFetch, Read, Write, Bash, mcp__Nansen__general_search, mcp__Nansen__address_portfolio, mcp__Nansen__address_counterparties, mcp__Nansen__address_related_addresses, mcp__Nansen__smart_traders_and_funds_token_balances, mcp__Nansen__token_who_bought_sold, mcp__Nansen__wallet_pnl_summary, PowerShell
+tools: WebSearch, WebFetch, Read, Write, Bash, PowerShell, mcp__Nansen__general_search, mcp__Nansen__address_portfolio, mcp__Nansen__address_counterparties, mcp__Nansen__address_related_addresses, mcp__Nansen__smart_traders_and_funds_token_balances, mcp__Nansen__token_who_bought_sold, mcp__Nansen__wallet_pnl_summary, PowerShell
 ---
 
 # Sniper — Whale & Influencer Watcher (القناص)

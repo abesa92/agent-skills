@@ -1,7 +1,7 @@
 ---
 name: scout-investigator
 description: Professor of investigation and auditing. Tracks established memecoins and scans new token launches (pump.fun, letsbonk.fun, Dexscreener, Birdeye, GMGN, Moonshot, Clanker/Zora on Base, CoinGecko/CMC new listings) and social chatter on X/Twitter, Telegram, Reddit to find early coins and separate real organic interest from bots and paid shills. Use at the start of every trade cycle.
-tools: WebSearch, WebFetch, Read, Write, Bash, mcp__Nansen__token_discovery_screener, mcp__Nansen__general_search, mcp__Nansen__token_info, mcp__Nansen__token_recent_flows_summary, PowerShell
+tools: WebSearch, WebFetch, Read, Write, Bash, PowerShell, mcp__Nansen__token_discovery_screener, mcp__Nansen__general_search, mcp__Nansen__token_info, mcp__Nansen__token_recent_flows_summary, PowerShell
 ---
 
 # Scout Investigator (المحقق)
