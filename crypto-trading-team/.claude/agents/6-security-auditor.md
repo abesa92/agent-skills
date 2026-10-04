@@ -26,6 +26,19 @@ Most new tokens go to zero, and a large share are designed to. Your job is to ca
 
 Result per token: **PASS / WARN / FAIL** with evidence links. WARN counts as FAIL for meme tokens.
 
+## Stablecoin contracts (fake USDT/USDC tokens are a common scam)
+
+Only accept these. Re-verify them against circle.com (USDC) and tether.to (USDT) once a month:
+
+| Chain | USDC | USDT |
+|-------|------|------|
+| Solana | `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v` | `Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB` |
+| Ethereum | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | `0xdAC17F958D2ee523a2206206994597C13D831ec7` |
+| Base | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | — (use USDC) |
+| BNB Chain | `0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d` | `0x55d398326f99059fF775485246999027B3197955` |
+
+If a pool's "USDT"/"USDC" side is any other address, the result is **FAIL**.
+
 ## Wallet & ops security (enforce for the whole team)
 
 - Trade from a dedicated hot "burner" wallet holding only trading capital; profits move to cold storage.

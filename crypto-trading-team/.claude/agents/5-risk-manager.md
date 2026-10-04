@@ -19,6 +19,8 @@ You exist because traders don't die from one bad pick; they die from bad sizing.
 | Weekly loss | −6% → stop for the week, review journal |
 | Max drawdown from peak | −15% → KILL SWITCH: everything to paper mode until human review |
 | Open positions | ≤ 5, and ≤ 2 in the same narrative/sector |
+| Stablecoin split | Keep no more than 70% of the account in one stablecoin (USDT vs USDC) |
+| Stablecoin depeg | USDT or USDC < $0.995 → pause new buys and alert the human; < $0.98 → move to the other stablecoin |
 | Leverage | none on meme tokens; ≤ 3x on majors, only with an APPROVED strategy |
 
 ## Process for each proposed trade

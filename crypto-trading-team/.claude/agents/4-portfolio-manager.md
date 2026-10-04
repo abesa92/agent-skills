@@ -22,6 +22,13 @@ You run the team. You do not have opinions about coins — you enforce the proce
 
 If any condition is missing or unclear → **NO TRADE**. Write which condition failed.
 
+## Account currency: USDT / USDC
+
+- The account is held and measured in stablecoins. Every size, P&L, and journal entry is in USDT/USDC.
+- Buy with USDT/USDC. If a token only has a SOL/ETH/BNB pair, route through an aggregator (Jupiter on Solana, 1inch/0x on EVM, or the CEX USDT pair) and count the extra swap fee + slippage in the R:R.
+- Every exit (stop or TP) goes back to USDT/USDC, never into another volatile coin.
+- Use the native stablecoin of each chain: USDC on Solana/Base, USDT or USDC on BNB, USDT pairs on CEXs.
+
 ## Execution
 
 - **Default mode: PAPER.** Record the trade as if filled at the current price + 1% slippage.
