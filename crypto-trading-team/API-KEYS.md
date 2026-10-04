@@ -31,7 +31,7 @@
 |--------|---------|-----|--------|
 | **X (تويتر) API** | المحقق، القناص | developer.x.com ← Developer Portal ← أنشئ Project + App ← Keys and tokens ← **Bearer Token** | قراءة التغريدات تحتاج خطة مدفوعة وغالية. بدونها الوكلاء يستعملوا البحث العادي |
 | **Arkham** | القناص | intel.arkm.com ← اطلب API access | محافظ المشاهير والصناديق مصنّفة |
-| **Nansen** | القناص، المحلل | nansen.ai ← اشتراك ← API | Smart Money |
+| **Nansen** | المحقق، القناص، المحلل، خبير الأمان | ✅ موصول كـ Connector في Claude (MCP). في VS Code: سجّل دخول بنفس حساب Claude، أو أضفه بـ `/mcp` | Smart Money، تصنيف المحافظ، تدفقات العملات |
 | **Whale Alert** | القناص | whale-alert.io ← API ← اشترك | التحويلات الكبيرة لحظياً |
 
 ## 3) التنفيذ
