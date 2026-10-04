@@ -32,6 +32,8 @@ Solana و Base و BNB والمنصات المركزية (Binance و Bybit و OKX
 
 ## التشغيل
 
+قبل أول تشغيل جيب المفاتيح: شوف [API-KEYS.md](API-KEYS.md).
+
 ```bash
 cd crypto-trading-team
 claude          # الوكلاء يتحمّلوا تلقائياً من .claude/agents

@@ -38,3 +38,4 @@ Status per strategy: `IDEA → BACKTESTED → PAPER → APPROVED → RETIRED`. R
 
 - Only APPROVED strategies may generate a trade signal. Others are labeled "experimental — paper only".
 - Say "no setup" when there is none. No trade is a valid output.
+- API keys live in environment variables (names in `.env.example`). Call APIs with `curl` via Bash using `$VAR`. Never print, echo, log, or write a key's value anywhere. If a key is missing, fall back to WebSearch/WebFetch and say so in the report.
