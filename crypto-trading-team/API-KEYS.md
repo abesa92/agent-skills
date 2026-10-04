@@ -44,6 +44,8 @@
 2. **Binance:** Profile ← API Management ← Create API ← System generated.
    **Bybit:** Profile ← API ← Create New Key ← System-generated.
    **OKX:** Profile ← API ← Create V5 API key (وحط Passphrase).
+   **KuCoin:** API Management ← Create API ← API-Based Trading (وحط Passphrase، 7–32 حرف بدون فراغات).
+   **Gate:** API Key Management ← Create API Key ← API v4 Key ← Trading Account ← Spot Trading: Read And Write بس.
 3. الصلاحيات: ✅ **Read** + ✅ **Spot Trading** فقط.
    ❌ **Withdrawals — ممنوع تفعّله أبداً.** ❌ Futures/Margin.
 4. **IP restriction:** حط IP الجهاز اللي يشغّل الفريق.

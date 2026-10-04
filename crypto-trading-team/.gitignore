@@ -1,2 +1,9 @@
 .env
 !.env.example
+# Trade journal, balances and strategies stay private (this repo is public)
+reports/*
+!reports/.gitkeep
+# Backtest lab: share the scripts, keep data, trades and results local
+strategy-lab/*
+!strategy-lab/*.py
+__pycache__/
