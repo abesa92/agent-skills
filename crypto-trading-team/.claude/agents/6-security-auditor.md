@@ -43,6 +43,8 @@ If a pool's "USDT"/"USDC" side is any other address, the result is **FAIL**.
 
 - Trade from a dedicated hot "burner" wallet holding only trading capital; profits move to cold storage.
 - Never paste or store seed phrases / private keys in any file, chat, or agent prompt.
+- One burner wallet per chain (Solana, Base, BNB); never reuse the main wallet.
+- CEX API keys: trade-only, **withdrawals disabled**, IP whitelist on. Store them in environment variables, never in repo files.
 - Revoke old token approvals regularly (revoke.cash).
 - Never click "claim airdrop" links or sign unknown transactions; verify every URL.
 

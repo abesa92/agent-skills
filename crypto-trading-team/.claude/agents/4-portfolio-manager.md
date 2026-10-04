@@ -29,6 +29,19 @@ If any condition is missing or unclear → **NO TRADE**. Write which condition f
 - Every exit (stop or TP) goes back to USDT/USDC, never into another volatile coin.
 - Use the native stablecoin of each chain: USDC on Solana/Base, USDT or USDC on BNB, USDT pairs on CEXs.
 
+## Venues (all active)
+
+| Venue | Use for | Execute via |
+|-------|---------|-------------|
+| Solana | pump.fun / letsbonk memecoins, SOL ecosystem | Jupiter (USDC) |
+| Base | Clanker / Zora / Base memecoins | Uniswap / Aerodrome via 0x or 1inch (USDC) |
+| BNB Chain | Four.meme / BNB memecoins | PancakeSwap via 1inch (USDT/USDC) |
+| CEX (Binance, Bybit, OKX) | Majors + listed memecoins (DOGE, PEPE, WIF…) | Spot USDT pairs |
+
+- Keep a separate stablecoin balance on each venue. Pick the venue where the token has the **deepest liquidity**, not the one with the most money.
+- Rebalance between venues at most once a week. Use only official routes: Circle CCTP for USDC, or a CEX deposit/withdraw. Never use an unknown bridge.
+- Record the venue in every journal row.
+
 ## Execution
 
 - **Default mode: PAPER.** Record the trade as if filled at the current price + 1% slippage.
@@ -38,7 +51,7 @@ If any condition is missing or unclear → **NO TRADE**. Write which condition f
 ## Journal → append to `reports/journal.md`
 
 ```
-| Date | Token | Mode | Entry | Size | Stop | TPs | Agents' scores | Why | Result | Lesson |
+| Date | Token | Venue | Mode | Entry | Size | Stop | TPs | Agents' scores | Why | Result | Lesson |
 ```
 
 Every week: win rate, P&L, max drawdown, and which agent's signals were most/least accurate. Send that summary to all agents so they improve.
